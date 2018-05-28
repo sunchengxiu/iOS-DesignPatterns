@@ -15,6 +15,11 @@
 		E8BA156E20BC253400F6BE47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BA156D20BC253400F6BE47 /* main.m */; };
 		E8BA157820BC253400F6BE47 /* DecoratorPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BA157720BC253400F6BE47 /* DecoratorPatternTests.m */; };
 		E8BA158320BC253400F6BE47 /* DecoratorPatternUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BA158220BC253400F6BE47 /* DecoratorPatternUITests.m */; };
+		E8BA159320BC36B700F6BE47 /* SCXComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BA159220BC36B700F6BE47 /* SCXComponent.m */; };
+		E8BA159620BC36F700F6BE47 /* SCXBaseComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BA159520BC36F700F6BE47 /* SCXBaseComponent.m */; };
+		E8BA159A20BC373B00F6BE47 /* SCXDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BA159920BC373B00F6BE47 /* SCXDecorator.m */; };
+		E8BA159D20BC380500F6BE47 /* SCXComponentDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BA159C20BC380500F6BE47 /* SCXComponentDecorator.m */; };
+		E8BA15A020BC38C700F6BE47 /* SCXComponentDecoratorA.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BA159F20BC38C700F6BE47 /* SCXComponentDecoratorA.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		E8BA157E20BC253400F6BE47 /* DecoratorPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DecoratorPatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8BA158220BC253400F6BE47 /* DecoratorPatternUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecoratorPatternUITests.m; sourceTree = "<group>"; };
 		E8BA158420BC253400F6BE47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8BA159120BC36B700F6BE47 /* SCXComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCXComponent.h; sourceTree = "<group>"; };
+		E8BA159220BC36B700F6BE47 /* SCXComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCXComponent.m; sourceTree = "<group>"; };
+		E8BA159420BC36F700F6BE47 /* SCXBaseComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCXBaseComponent.h; sourceTree = "<group>"; };
+		E8BA159520BC36F700F6BE47 /* SCXBaseComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCXBaseComponent.m; sourceTree = "<group>"; };
+		E8BA159820BC373B00F6BE47 /* SCXDecorator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCXDecorator.h; sourceTree = "<group>"; };
+		E8BA159920BC373B00F6BE47 /* SCXDecorator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCXDecorator.m; sourceTree = "<group>"; };
+		E8BA159B20BC380500F6BE47 /* SCXComponentDecorator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCXComponentDecorator.h; sourceTree = "<group>"; };
+		E8BA159C20BC380500F6BE47 /* SCXComponentDecorator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCXComponentDecorator.m; sourceTree = "<group>"; };
+		E8BA159E20BC38C700F6BE47 /* SCXComponentDecoratorA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCXComponentDecoratorA.h; sourceTree = "<group>"; };
+		E8BA159F20BC38C700F6BE47 /* SCXComponentDecoratorA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCXComponentDecoratorA.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +116,8 @@
 		E8BA155D20BC253300F6BE47 /* DecoratorPattern */ = {
 			isa = PBXGroup;
 			children = (
+				E8BA159720BC371F00F6BE47 /* Decorator */,
+				E8BA159020BC369800F6BE47 /* Component */,
 				E8BA155E20BC253300F6BE47 /* AppDelegate.h */,
 				E8BA155F20BC253300F6BE47 /* AppDelegate.m */,
 				E8BA156120BC253300F6BE47 /* ViewController.h */,
@@ -130,6 +147,30 @@
 				E8BA158420BC253400F6BE47 /* Info.plist */,
 			);
 			path = DecoratorPatternUITests;
+			sourceTree = "<group>";
+		};
+		E8BA159020BC369800F6BE47 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				E8BA159120BC36B700F6BE47 /* SCXComponent.h */,
+				E8BA159220BC36B700F6BE47 /* SCXComponent.m */,
+				E8BA159420BC36F700F6BE47 /* SCXBaseComponent.h */,
+				E8BA159520BC36F700F6BE47 /* SCXBaseComponent.m */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		E8BA159720BC371F00F6BE47 /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				E8BA159820BC373B00F6BE47 /* SCXDecorator.h */,
+				E8BA159920BC373B00F6BE47 /* SCXDecorator.m */,
+				E8BA159B20BC380500F6BE47 /* SCXComponentDecorator.h */,
+				E8BA159C20BC380500F6BE47 /* SCXComponentDecorator.m */,
+				E8BA159E20BC38C700F6BE47 /* SCXComponentDecoratorA.h */,
+				E8BA159F20BC38C700F6BE47 /* SCXComponentDecoratorA.m */,
+			);
+			path = Decorator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +303,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8BA15A020BC38C700F6BE47 /* SCXComponentDecoratorA.m in Sources */,
 				E8BA156320BC253300F6BE47 /* ViewController.m in Sources */,
+				E8BA159620BC36F700F6BE47 /* SCXBaseComponent.m in Sources */,
+				E8BA159A20BC373B00F6BE47 /* SCXDecorator.m in Sources */,
 				E8BA156E20BC253400F6BE47 /* main.m in Sources */,
+				E8BA159320BC36B700F6BE47 /* SCXComponent.m in Sources */,
 				E8BA156020BC253300F6BE47 /* AppDelegate.m in Sources */,
+				E8BA159D20BC380500F6BE47 /* SCXComponentDecorator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

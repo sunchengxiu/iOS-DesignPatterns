@@ -7,7 +7,9 @@
 //
 
 #import "ViewController.h"
-
+#import "SCXBaseComponent.h"
+#import "SCXComponentDecorator.h"
+#import "SCXComponentDecoratorA.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +18,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    SCXBaseComponent *component = [SCXBaseComponent new];
+    SCXComponentDecorator *dec1 = [SCXComponentDecorator new];
+    SCXComponentDecoratorA *dec2 = [SCXComponentDecoratorA new];
+    dec1.component = component;
+    dec2.component = component;
+    [dec1 work];
+    [dec2 work];
+    
 }
 
 
