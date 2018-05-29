@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:ProxyPattern/ProxyPattern.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:StrategyPattern/StrategyPattern.xcodeproj">
    </FileRef>
    <FileRef
