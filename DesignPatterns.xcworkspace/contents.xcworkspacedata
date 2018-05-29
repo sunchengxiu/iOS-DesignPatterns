@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:StrategyPattern/StrategyPattern.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:DecoratorPattern/DecoratorPattern.xcodeproj">
    </FileRef>
    <FileRef
