@@ -2,10 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/sunchengxiu/Desktop/iOS-DesignPatterns/BuilderaPattern/BuilderaPattern/Builder/SCXBuildChip.h">
-   </FileRef>
-   <FileRef
-      location = "group:/Users/sunchengxiu/Desktop/iOS-DesignPatterns/BuilderaPattern/BuilderaPattern/Builder/SCXBuildChip.m">
+      location = "group:ProtoType/ProtoType.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:BuilderaPattern/BuilderaPattern.xcodeproj">
