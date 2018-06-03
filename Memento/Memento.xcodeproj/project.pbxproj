@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E86A663D20C3F79500CCEAE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E86A663C20C3F79500CCEAE2 /* AppDelegate.m */; };
+		E86A664020C3F79500CCEAE2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E86A663F20C3F79500CCEAE2 /* ViewController.m */; };
+		E86A664320C3F79500CCEAE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E86A664120C3F79500CCEAE2 /* Main.storyboard */; };
+		E86A664520C3F79600CCEAE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E86A664420C3F79600CCEAE2 /* Assets.xcassets */; };
+		E86A664820C3F79600CCEAE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E86A664620C3F79600CCEAE2 /* LaunchScreen.storyboard */; };
+		E86A664B20C3F79600CCEAE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E86A664A20C3F79600CCEAE2 /* main.m */; };
+		E86A665520C3F79600CCEAE2 /* MementoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E86A665420C3F79600CCEAE2 /* MementoTests.m */; };
+		E86A666020C3F79600CCEAE2 /* MementoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E86A665F20C3F79600CCEAE2 /* MementoUITests.m */; };
+		E86A666F20C3F8BE00CCEAE2 /* SCXGameRool.m in Sources */ = {isa = PBXBuildFile; fileRef = E86A666E20C3F8BE00CCEAE2 /* SCXGameRool.m */; };
+		E86A667220C3F92D00CCEAE2 /* SCXGame.m in Sources */ = {isa = PBXBuildFile; fileRef = E86A667120C3F92D00CCEAE2 /* SCXGame.m */; };
+		E86A667520C3F93A00CCEAE2 /* SCXGameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E86A667420C3F93A00CCEAE2 /* SCXGameManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E86A665120C3F79600CCEAE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E86A663020C3F79500CCEAE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E86A663720C3F79500CCEAE2;
+			remoteInfo = Memento;
+		};
+		E86A665C20C3F79600CCEAE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E86A663020C3F79500CCEAE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E86A663720C3F79500CCEAE2;
+			remoteInfo = Memento;
+		};
+		E86A66BA20C4029A00CCEAE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E86A66B420C4029700CCEAE2 /* Composite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E86A667F20C4029600CCEAE2;
+			remoteInfo = Composite;
+		};
+		E86A66BC20C4029A00CCEAE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E86A66B420C4029700CCEAE2 /* Composite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E86A669720C4029700CCEAE2;
+			remoteInfo = CompositeTests;
+		};
+		E86A66BE20C4029A00CCEAE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E86A66B420C4029700CCEAE2 /* Composite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E86A66A220C4029700CCEAE2;
+			remoteInfo = CompositeUITests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E86A663820C3F79500CCEAE2 /* Memento.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memento.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E86A663B20C3F79500CCEAE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E86A663C20C3F79500CCEAE2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E86A663E20C3F79500CCEAE2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E86A663F20C3F79500CCEAE2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E86A664220C3F79500CCEAE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E86A664420C3F79600CCEAE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E86A664720C3F79600CCEAE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E86A664920C3F79600CCEAE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E86A664A20C3F79600CCEAE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E86A665020C3F79600CCEAE2 /* MementoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MementoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E86A665420C3F79600CCEAE2 /* MementoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MementoTests.m; sourceTree = "<group>"; };
+		E86A665620C3F79600CCEAE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E86A665B20C3F79600CCEAE2 /* MementoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MementoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E86A665F20C3F79600CCEAE2 /* MementoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MementoUITests.m; sourceTree = "<group>"; };
+		E86A666120C3F79600CCEAE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E86A666D20C3F8BE00CCEAE2 /* SCXGameRool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCXGameRool.h; sourceTree = "<group>"; };
+		E86A666E20C3F8BE00CCEAE2 /* SCXGameRool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCXGameRool.m; sourceTree = "<group>"; };
+		E86A667020C3F92D00CCEAE2 /* SCXGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCXGame.h; sourceTree = "<group>"; };
+		E86A667120C3F92D00CCEAE2 /* SCXGame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCXGame.m; sourceTree = "<group>"; };
+		E86A667320C3F93A00CCEAE2 /* SCXGameManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCXGameManager.h; sourceTree = "<group>"; };
+		E86A667420C3F93A00CCEAE2 /* SCXGameManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCXGameManager.m; sourceTree = "<group>"; };
+		E86A66B420C4029700CCEAE2 /* Composite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Composite.xcodeproj; path = Composite/Composite.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E86A663520C3F79500CCEAE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E86A664D20C3F79600CCEAE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E86A665820C3F79600CCEAE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E86A662F20C3F79500CCEAE2 = {
+			isa = PBXGroup;
+			children = (
+				E86A66B420C4029700CCEAE2 /* Composite.xcodeproj */,
+				E86A663A20C3F79500CCEAE2 /* Memento */,
+				E86A665320C3F79600CCEAE2 /* MementoTests */,
+				E86A665E20C3F79600CCEAE2 /* MementoUITests */,
+				E86A663920C3F79500CCEAE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E86A663920C3F79500CCEAE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E86A663820C3F79500CCEAE2 /* Memento.app */,
+				E86A665020C3F79600CCEAE2 /* MementoTests.xctest */,
+				E86A665B20C3F79600CCEAE2 /* MementoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E86A663A20C3F79500CCEAE2 /* Memento */ = {
+			isa = PBXGroup;
+			children = (
+				E86A666D20C3F8BE00CCEAE2 /* SCXGameRool.h */,
+				E86A666E20C3F8BE00CCEAE2 /* SCXGameRool.m */,
+				E86A667020C3F92D00CCEAE2 /* SCXGame.h */,
+				E86A667120C3F92D00CCEAE2 /* SCXGame.m */,
+				E86A667320C3F93A00CCEAE2 /* SCXGameManager.h */,
+				E86A667420C3F93A00CCEAE2 /* SCXGameManager.m */,
+				E86A663B20C3F79500CCEAE2 /* AppDelegate.h */,
+				E86A663C20C3F79500CCEAE2 /* AppDelegate.m */,
+				E86A663E20C3F79500CCEAE2 /* ViewController.h */,
+				E86A663F20C3F79500CCEAE2 /* ViewController.m */,
+				E86A664120C3F79500CCEAE2 /* Main.storyboard */,
+				E86A664420C3F79600CCEAE2 /* Assets.xcassets */,
+				E86A664620C3F79600CCEAE2 /* LaunchScreen.storyboard */,
+				E86A664920C3F79600CCEAE2 /* Info.plist */,
+				E86A664A20C3F79600CCEAE2 /* main.m */,
+			);
+			path = Memento;
+			sourceTree = "<group>";
+		};
+		E86A665320C3F79600CCEAE2 /* MementoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E86A665420C3F79600CCEAE2 /* MementoTests.m */,
+				E86A665620C3F79600CCEAE2 /* Info.plist */,
+			);
+			path = MementoTests;
+			sourceTree = "<group>";
+		};
+		E86A665E20C3F79600CCEAE2 /* MementoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E86A665F20C3F79600CCEAE2 /* MementoUITests.m */,
+				E86A666120C3F79600CCEAE2 /* Info.plist */,
+			);
+			path = MementoUITests;
+			sourceTree = "<group>";
+		};
+		E86A66B520C4029700CCEAE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E86A66BB20C4029A00CCEAE2 /* Composite.app */,
+				E86A66BD20C4029A00CCEAE2 /* CompositeTests.xctest */,
+				E86A66BF20C4029A00CCEAE2 /* CompositeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E86A663720C3F79500CCEAE2 /* Memento */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E86A666420C3F79600CCEAE2 /* Build configuration list for PBXNativeTarget "Memento" */;
+			buildPhases = (
+				E86A663420C3F79500CCEAE2 /* Sources */,
+				E86A663520C3F79500CCEAE2 /* Frameworks */,
+				E86A663620C3F79500CCEAE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Memento;
+			productName = Memento;
+			productReference = E86A663820C3F79500CCEAE2 /* Memento.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E86A664F20C3F79600CCEAE2 /* MementoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E86A666720C3F79600CCEAE2 /* Build configuration list for PBXNativeTarget "MementoTests" */;
+			buildPhases = (
+				E86A664C20C3F79600CCEAE2 /* Sources */,
+				E86A664D20C3F79600CCEAE2 /* Frameworks */,
+				E86A664E20C3F79600CCEAE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E86A665220C3F79600CCEAE2 /* PBXTargetDependency */,
+			);
+			name = MementoTests;
+			productName = MementoTests;
+			productReference = E86A665020C3F79600CCEAE2 /* MementoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E86A665A20C3F79600CCEAE2 /* MementoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E86A666A20C3F79600CCEAE2 /* Build configuration list for PBXNativeTarget "MementoUITests" */;
+			buildPhases = (
+				E86A665720C3F79600CCEAE2 /* Sources */,
+				E86A665820C3F79600CCEAE2 /* Frameworks */,
+				E86A665920C3F79600CCEAE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E86A665D20C3F79600CCEAE2 /* PBXTargetDependency */,
+			);
+			name = MementoUITests;
+			productName = MementoUITests;
+			productReference = E86A665B20C3F79600CCEAE2 /* MementoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E86A663020C3F79500CCEAE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = RongCloud;
+				TargetAttributes = {
+					E86A663720C3F79500CCEAE2 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					E86A664F20C3F79600CCEAE2 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = E86A663720C3F79500CCEAE2;
+					};
+					E86A665A20C3F79600CCEAE2 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = E86A663720C3F79500CCEAE2;
+					};
+				};
+			};
+			buildConfigurationList = E86A663320C3F79500CCEAE2 /* Build configuration list for PBXProject "Memento" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E86A662F20C3F79500CCEAE2;
+			productRefGroup = E86A663920C3F79500CCEAE2 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E86A66B520C4029700CCEAE2 /* Products */;
+					ProjectRef = E86A66B420C4029700CCEAE2 /* Composite.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E86A663720C3F79500CCEAE2 /* Memento */,
+				E86A664F20C3F79600CCEAE2 /* MementoTests */,
+				E86A665A20C3F79600CCEAE2 /* MementoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E86A66BB20C4029A00CCEAE2 /* Composite.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Composite.app;
+			remoteRef = E86A66BA20C4029A00CCEAE2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E86A66BD20C4029A00CCEAE2 /* CompositeTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CompositeTests.xctest;
+			remoteRef = E86A66BC20C4029A00CCEAE2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E86A66BF20C4029A00CCEAE2 /* CompositeUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CompositeUITests.xctest;
+			remoteRef = E86A66BE20C4029A00CCEAE2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E86A663620C3F79500CCEAE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E86A664820C3F79600CCEAE2 /* LaunchScreen.storyboard in Resources */,
+				E86A664520C3F79600CCEAE2 /* Assets.xcassets in Resources */,
+				E86A664320C3F79500CCEAE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E86A664E20C3F79600CCEAE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E86A665920C3F79600CCEAE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E86A663420C3F79500CCEAE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E86A666F20C3F8BE00CCEAE2 /* SCXGameRool.m in Sources */,
+				E86A664020C3F79500CCEAE2 /* ViewController.m in Sources */,
+				E86A664B20C3F79600CCEAE2 /* main.m in Sources */,
+				E86A667220C3F92D00CCEAE2 /* SCXGame.m in Sources */,
+				E86A667520C3F93A00CCEAE2 /* SCXGameManager.m in Sources */,
+				E86A663D20C3F79500CCEAE2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E86A664C20C3F79600CCEAE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E86A665520C3F79600CCEAE2 /* MementoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E86A665720C3F79600CCEAE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E86A666020C3F79600CCEAE2 /* MementoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E86A665220C3F79600CCEAE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E86A663720C3F79500CCEAE2 /* Memento */;
+			targetProxy = E86A665120C3F79600CCEAE2 /* PBXContainerItemProxy */;
+		};
+		E86A665D20C3F79600CCEAE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E86A663720C3F79500CCEAE2 /* Memento */;
+			targetProxy = E86A665C20C3F79600CCEAE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E86A664120C3F79500CCEAE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E86A664220C3F79500CCEAE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E86A664620C3F79600CCEAE2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E86A664720C3F79600CCEAE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E86A666220C3F79600CCEAE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E86A666320C3F79600CCEAE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E86A666520C3F79600CCEAE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Memento/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RongCloud.Memento;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E86A666620C3F79600CCEAE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Memento/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RongCloud.Memento;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E86A666820C3F79600CCEAE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MementoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RongCloud.MementoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memento.app/Memento";
+			};
+			name = Debug;
+		};
+		E86A666920C3F79600CCEAE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MementoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RongCloud.MementoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memento.app/Memento";
+			};
+			name = Release;
+		};
+		E86A666B20C3F79600CCEAE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MementoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RongCloud.MementoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Memento;
+			};
+			name = Debug;
+		};
+		E86A666C20C3F79600CCEAE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MementoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RongCloud.MementoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Memento;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E86A663320C3F79500CCEAE2 /* Build configuration list for PBXProject "Memento" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E86A666220C3F79600CCEAE2 /* Debug */,
+				E86A666320C3F79600CCEAE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E86A666420C3F79600CCEAE2 /* Build configuration list for PBXNativeTarget "Memento" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E86A666520C3F79600CCEAE2 /* Debug */,
+				E86A666620C3F79600CCEAE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E86A666720C3F79600CCEAE2 /* Build configuration list for PBXNativeTarget "MementoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E86A666820C3F79600CCEAE2 /* Debug */,
+				E86A666920C3F79600CCEAE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E86A666A20C3F79600CCEAE2 /* Build configuration list for PBXNativeTarget "MementoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E86A666B20C3F79600CCEAE2 /* Debug */,
+				E86A666C20C3F79600CCEAE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E86A663020C3F79500CCEAE2 /* Project object */;
+}
