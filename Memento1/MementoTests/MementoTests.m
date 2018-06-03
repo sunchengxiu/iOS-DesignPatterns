@@ -1,6 +1,6 @@
 //
-//  CompositeTests.m
-//  CompositeTests
+//  MementoTests.m
+//  MementoTests
 //
 //  Created by 孙承秀 on 2018/6/3.
 //  Copyright © 2018年 RongCloud. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface CompositeTests : XCTestCase
+@interface MementoTests : XCTestCase
 
 @end
 
-@implementation CompositeTests
+@implementation MementoTests
 
 - (void)setUp {
     [super setUp];

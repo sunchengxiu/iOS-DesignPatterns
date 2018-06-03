@@ -29,7 +29,7 @@
     [rool gameState];
     
     // 回滚roll 的状态
-    [rool roolBackGame:manamger.game];
+    [rool roolBackGame:gameRool];
     [rool gameState];
 }
 

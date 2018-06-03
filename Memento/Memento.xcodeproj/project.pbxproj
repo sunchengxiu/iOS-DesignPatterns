@@ -7,99 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E86A663D20C3F79500CCEAE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E86A663C20C3F79500CCEAE2 /* AppDelegate.m */; };
-		E86A664020C3F79500CCEAE2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E86A663F20C3F79500CCEAE2 /* ViewController.m */; };
-		E86A664320C3F79500CCEAE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E86A664120C3F79500CCEAE2 /* Main.storyboard */; };
-		E86A664520C3F79600CCEAE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E86A664420C3F79600CCEAE2 /* Assets.xcassets */; };
-		E86A664820C3F79600CCEAE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E86A664620C3F79600CCEAE2 /* LaunchScreen.storyboard */; };
-		E86A664B20C3F79600CCEAE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E86A664A20C3F79600CCEAE2 /* main.m */; };
-		E86A665520C3F79600CCEAE2 /* MementoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E86A665420C3F79600CCEAE2 /* MementoTests.m */; };
-		E86A666020C3F79600CCEAE2 /* MementoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E86A665F20C3F79600CCEAE2 /* MementoUITests.m */; };
-		E86A666F20C3F8BE00CCEAE2 /* SCXGameRool.m in Sources */ = {isa = PBXBuildFile; fileRef = E86A666E20C3F8BE00CCEAE2 /* SCXGameRool.m */; };
-		E86A667220C3F92D00CCEAE2 /* SCXGame.m in Sources */ = {isa = PBXBuildFile; fileRef = E86A667120C3F92D00CCEAE2 /* SCXGame.m */; };
-		E86A667520C3F93A00CCEAE2 /* SCXGameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E86A667420C3F93A00CCEAE2 /* SCXGameManager.m */; };
+		E86A66CE20C404C000CCEAE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E86A66CD20C404C000CCEAE2 /* AppDelegate.m */; };
+		E86A66D420C404C000CCEAE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E86A66D220C404C000CCEAE2 /* Main.storyboard */; };
+		E86A66D620C404C100CCEAE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E86A66D520C404C100CCEAE2 /* Assets.xcassets */; };
+		E86A66D920C404C100CCEAE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E86A66D720C404C100CCEAE2 /* LaunchScreen.storyboard */; };
+		E86A66DC20C404C100CCEAE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E86A66DB20C404C100CCEAE2 /* main.m */; };
+		E86A66E620C404C100CCEAE2 /* MementoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E86A66E520C404C100CCEAE2 /* MementoTests.m */; };
+		E86A66F120C404C100CCEAE2 /* MementoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E86A66F020C404C100CCEAE2 /* MementoUITests.m */; };
+		E86A670620C404F000CCEAE2 /* SCXGame.m in Sources */ = {isa = PBXBuildFile; fileRef = E86A66FE20C404EF00CCEAE2 /* SCXGame.m */; };
+		E86A670720C404F000CCEAE2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E86A66FF20C404EF00CCEAE2 /* ViewController.m */; };
+		E86A670820C404F000CCEAE2 /* SCXGameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E86A670320C404F000CCEAE2 /* SCXGameManager.m */; };
+		E86A670920C404F000CCEAE2 /* SCXGameRool.m in Sources */ = {isa = PBXBuildFile; fileRef = E86A670420C404F000CCEAE2 /* SCXGameRool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E86A665120C3F79600CCEAE2 /* PBXContainerItemProxy */ = {
+		E86A66E220C404C100CCEAE2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E86A663020C3F79500CCEAE2 /* Project object */;
+			containerPortal = E86A66C120C404C000CCEAE2 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E86A663720C3F79500CCEAE2;
+			remoteGlobalIDString = E86A66C820C404C000CCEAE2;
 			remoteInfo = Memento;
 		};
-		E86A665C20C3F79600CCEAE2 /* PBXContainerItemProxy */ = {
+		E86A66ED20C404C100CCEAE2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E86A663020C3F79500CCEAE2 /* Project object */;
+			containerPortal = E86A66C120C404C000CCEAE2 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E86A663720C3F79500CCEAE2;
+			remoteGlobalIDString = E86A66C820C404C000CCEAE2;
 			remoteInfo = Memento;
-		};
-		E86A66BA20C4029A00CCEAE2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E86A66B420C4029700CCEAE2 /* Composite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E86A667F20C4029600CCEAE2;
-			remoteInfo = Composite;
-		};
-		E86A66BC20C4029A00CCEAE2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E86A66B420C4029700CCEAE2 /* Composite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E86A669720C4029700CCEAE2;
-			remoteInfo = CompositeTests;
-		};
-		E86A66BE20C4029A00CCEAE2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E86A66B420C4029700CCEAE2 /* Composite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E86A66A220C4029700CCEAE2;
-			remoteInfo = CompositeUITests;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E86A663820C3F79500CCEAE2 /* Memento.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memento.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E86A663B20C3F79500CCEAE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E86A663C20C3F79500CCEAE2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E86A663E20C3F79500CCEAE2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E86A663F20C3F79500CCEAE2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E86A664220C3F79500CCEAE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E86A664420C3F79600CCEAE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E86A664720C3F79600CCEAE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E86A664920C3F79600CCEAE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E86A664A20C3F79600CCEAE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E86A665020C3F79600CCEAE2 /* MementoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MementoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E86A665420C3F79600CCEAE2 /* MementoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MementoTests.m; sourceTree = "<group>"; };
-		E86A665620C3F79600CCEAE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E86A665B20C3F79600CCEAE2 /* MementoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MementoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E86A665F20C3F79600CCEAE2 /* MementoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MementoUITests.m; sourceTree = "<group>"; };
-		E86A666120C3F79600CCEAE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E86A666D20C3F8BE00CCEAE2 /* SCXGameRool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCXGameRool.h; sourceTree = "<group>"; };
-		E86A666E20C3F8BE00CCEAE2 /* SCXGameRool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCXGameRool.m; sourceTree = "<group>"; };
-		E86A667020C3F92D00CCEAE2 /* SCXGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCXGame.h; sourceTree = "<group>"; };
-		E86A667120C3F92D00CCEAE2 /* SCXGame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCXGame.m; sourceTree = "<group>"; };
-		E86A667320C3F93A00CCEAE2 /* SCXGameManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCXGameManager.h; sourceTree = "<group>"; };
-		E86A667420C3F93A00CCEAE2 /* SCXGameManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCXGameManager.m; sourceTree = "<group>"; };
-		E86A66B420C4029700CCEAE2 /* Composite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Composite.xcodeproj; path = Composite/Composite.xcodeproj; sourceTree = "<group>"; };
+		E86A66C920C404C000CCEAE2 /* Memento.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memento.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E86A66CC20C404C000CCEAE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E86A66CD20C404C000CCEAE2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E86A66D320C404C000CCEAE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E86A66D520C404C100CCEAE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E86A66D820C404C100CCEAE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E86A66DA20C404C100CCEAE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E86A66DB20C404C100CCEAE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E86A66E120C404C100CCEAE2 /* MementoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MementoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E86A66E520C404C100CCEAE2 /* MementoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MementoTests.m; sourceTree = "<group>"; };
+		E86A66E720C404C100CCEAE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E86A66EC20C404C100CCEAE2 /* MementoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MementoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E86A66F020C404C100CCEAE2 /* MementoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MementoUITests.m; sourceTree = "<group>"; };
+		E86A66F220C404C100CCEAE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E86A66FE20C404EF00CCEAE2 /* SCXGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCXGame.m; sourceTree = "<group>"; };
+		E86A66FF20C404EF00CCEAE2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E86A670020C404EF00CCEAE2 /* SCXGameRool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCXGameRool.h; sourceTree = "<group>"; };
+		E86A670120C404EF00CCEAE2 /* SCXGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCXGame.h; sourceTree = "<group>"; };
+		E86A670220C404EF00CCEAE2 /* SCXGameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCXGameManager.h; sourceTree = "<group>"; };
+		E86A670320C404F000CCEAE2 /* SCXGameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCXGameManager.m; sourceTree = "<group>"; };
+		E86A670420C404F000CCEAE2 /* SCXGameRool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCXGameRool.m; sourceTree = "<group>"; };
+		E86A670520C404F000CCEAE2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E86A663520C3F79500CCEAE2 /* Frameworks */ = {
+		E86A66C620C404C000CCEAE2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E86A664D20C3F79600CCEAE2 /* Frameworks */ = {
+		E86A66DE20C404C100CCEAE2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E86A665820C3F79600CCEAE2 /* Frameworks */ = {
+		E86A66E920C404C100CCEAE2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -109,87 +87,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E86A662F20C3F79500CCEAE2 = {
+		E86A66C020C404C000CCEAE2 = {
 			isa = PBXGroup;
 			children = (
-				E86A66B420C4029700CCEAE2 /* Composite.xcodeproj */,
-				E86A663A20C3F79500CCEAE2 /* Memento */,
-				E86A665320C3F79600CCEAE2 /* MementoTests */,
-				E86A665E20C3F79600CCEAE2 /* MementoUITests */,
-				E86A663920C3F79500CCEAE2 /* Products */,
+				E86A66CB20C404C000CCEAE2 /* Memento */,
+				E86A66E420C404C100CCEAE2 /* MementoTests */,
+				E86A66EF20C404C100CCEAE2 /* MementoUITests */,
+				E86A66CA20C404C000CCEAE2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E86A663920C3F79500CCEAE2 /* Products */ = {
+		E86A66CA20C404C000CCEAE2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E86A663820C3F79500CCEAE2 /* Memento.app */,
-				E86A665020C3F79600CCEAE2 /* MementoTests.xctest */,
-				E86A665B20C3F79600CCEAE2 /* MementoUITests.xctest */,
+				E86A66C920C404C000CCEAE2 /* Memento.app */,
+				E86A66E120C404C100CCEAE2 /* MementoTests.xctest */,
+				E86A66EC20C404C100CCEAE2 /* MementoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E86A663A20C3F79500CCEAE2 /* Memento */ = {
+		E86A66CB20C404C000CCEAE2 /* Memento */ = {
 			isa = PBXGroup;
 			children = (
-				E86A666D20C3F8BE00CCEAE2 /* SCXGameRool.h */,
-				E86A666E20C3F8BE00CCEAE2 /* SCXGameRool.m */,
-				E86A667020C3F92D00CCEAE2 /* SCXGame.h */,
-				E86A667120C3F92D00CCEAE2 /* SCXGame.m */,
-				E86A667320C3F93A00CCEAE2 /* SCXGameManager.h */,
-				E86A667420C3F93A00CCEAE2 /* SCXGameManager.m */,
-				E86A663B20C3F79500CCEAE2 /* AppDelegate.h */,
-				E86A663C20C3F79500CCEAE2 /* AppDelegate.m */,
-				E86A663E20C3F79500CCEAE2 /* ViewController.h */,
-				E86A663F20C3F79500CCEAE2 /* ViewController.m */,
-				E86A664120C3F79500CCEAE2 /* Main.storyboard */,
-				E86A664420C3F79600CCEAE2 /* Assets.xcassets */,
-				E86A664620C3F79600CCEAE2 /* LaunchScreen.storyboard */,
-				E86A664920C3F79600CCEAE2 /* Info.plist */,
-				E86A664A20C3F79600CCEAE2 /* main.m */,
+				E86A66CC20C404C000CCEAE2 /* AppDelegate.h */,
+				E86A66CD20C404C000CCEAE2 /* AppDelegate.m */,
+				E86A670120C404EF00CCEAE2 /* SCXGame.h */,
+				E86A66FE20C404EF00CCEAE2 /* SCXGame.m */,
+				E86A670220C404EF00CCEAE2 /* SCXGameManager.h */,
+				E86A670320C404F000CCEAE2 /* SCXGameManager.m */,
+				E86A670020C404EF00CCEAE2 /* SCXGameRool.h */,
+				E86A670420C404F000CCEAE2 /* SCXGameRool.m */,
+				E86A670520C404F000CCEAE2 /* ViewController.h */,
+				E86A66FF20C404EF00CCEAE2 /* ViewController.m */,
+				E86A66D220C404C000CCEAE2 /* Main.storyboard */,
+				E86A66D520C404C100CCEAE2 /* Assets.xcassets */,
+				E86A66D720C404C100CCEAE2 /* LaunchScreen.storyboard */,
+				E86A66DA20C404C100CCEAE2 /* Info.plist */,
+				E86A66DB20C404C100CCEAE2 /* main.m */,
 			);
 			path = Memento;
 			sourceTree = "<group>";
 		};
-		E86A665320C3F79600CCEAE2 /* MementoTests */ = {
+		E86A66E420C404C100CCEAE2 /* MementoTests */ = {
 			isa = PBXGroup;
 			children = (
-				E86A665420C3F79600CCEAE2 /* MementoTests.m */,
-				E86A665620C3F79600CCEAE2 /* Info.plist */,
+				E86A66E520C404C100CCEAE2 /* MementoTests.m */,
+				E86A66E720C404C100CCEAE2 /* Info.plist */,
 			);
 			path = MementoTests;
 			sourceTree = "<group>";
 		};
-		E86A665E20C3F79600CCEAE2 /* MementoUITests */ = {
+		E86A66EF20C404C100CCEAE2 /* MementoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				E86A665F20C3F79600CCEAE2 /* MementoUITests.m */,
-				E86A666120C3F79600CCEAE2 /* Info.plist */,
+				E86A66F020C404C100CCEAE2 /* MementoUITests.m */,
+				E86A66F220C404C100CCEAE2 /* Info.plist */,
 			);
 			path = MementoUITests;
-			sourceTree = "<group>";
-		};
-		E86A66B520C4029700CCEAE2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E86A66BB20C4029A00CCEAE2 /* Composite.app */,
-				E86A66BD20C4029A00CCEAE2 /* CompositeTests.xctest */,
-				E86A66BF20C4029A00CCEAE2 /* CompositeUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E86A663720C3F79500CCEAE2 /* Memento */ = {
+		E86A66C820C404C000CCEAE2 /* Memento */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E86A666420C3F79600CCEAE2 /* Build configuration list for PBXNativeTarget "Memento" */;
+			buildConfigurationList = E86A66F520C404C100CCEAE2 /* Build configuration list for PBXNativeTarget "Memento" */;
 			buildPhases = (
-				E86A663420C3F79500CCEAE2 /* Sources */,
-				E86A663520C3F79500CCEAE2 /* Frameworks */,
-				E86A663620C3F79500CCEAE2 /* Resources */,
+				E86A66C520C404C000CCEAE2 /* Sources */,
+				E86A66C620C404C000CCEAE2 /* Frameworks */,
+				E86A66C720C404C000CCEAE2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -197,68 +164,68 @@
 			);
 			name = Memento;
 			productName = Memento;
-			productReference = E86A663820C3F79500CCEAE2 /* Memento.app */;
+			productReference = E86A66C920C404C000CCEAE2 /* Memento.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E86A664F20C3F79600CCEAE2 /* MementoTests */ = {
+		E86A66E020C404C100CCEAE2 /* MementoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E86A666720C3F79600CCEAE2 /* Build configuration list for PBXNativeTarget "MementoTests" */;
+			buildConfigurationList = E86A66F820C404C100CCEAE2 /* Build configuration list for PBXNativeTarget "MementoTests" */;
 			buildPhases = (
-				E86A664C20C3F79600CCEAE2 /* Sources */,
-				E86A664D20C3F79600CCEAE2 /* Frameworks */,
-				E86A664E20C3F79600CCEAE2 /* Resources */,
+				E86A66DD20C404C100CCEAE2 /* Sources */,
+				E86A66DE20C404C100CCEAE2 /* Frameworks */,
+				E86A66DF20C404C100CCEAE2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E86A665220C3F79600CCEAE2 /* PBXTargetDependency */,
+				E86A66E320C404C100CCEAE2 /* PBXTargetDependency */,
 			);
 			name = MementoTests;
 			productName = MementoTests;
-			productReference = E86A665020C3F79600CCEAE2 /* MementoTests.xctest */;
+			productReference = E86A66E120C404C100CCEAE2 /* MementoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E86A665A20C3F79600CCEAE2 /* MementoUITests */ = {
+		E86A66EB20C404C100CCEAE2 /* MementoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E86A666A20C3F79600CCEAE2 /* Build configuration list for PBXNativeTarget "MementoUITests" */;
+			buildConfigurationList = E86A66FB20C404C100CCEAE2 /* Build configuration list for PBXNativeTarget "MementoUITests" */;
 			buildPhases = (
-				E86A665720C3F79600CCEAE2 /* Sources */,
-				E86A665820C3F79600CCEAE2 /* Frameworks */,
-				E86A665920C3F79600CCEAE2 /* Resources */,
+				E86A66E820C404C100CCEAE2 /* Sources */,
+				E86A66E920C404C100CCEAE2 /* Frameworks */,
+				E86A66EA20C404C100CCEAE2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E86A665D20C3F79600CCEAE2 /* PBXTargetDependency */,
+				E86A66EE20C404C100CCEAE2 /* PBXTargetDependency */,
 			);
 			name = MementoUITests;
 			productName = MementoUITests;
-			productReference = E86A665B20C3F79600CCEAE2 /* MementoUITests.xctest */;
+			productReference = E86A66EC20C404C100CCEAE2 /* MementoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E86A663020C3F79500CCEAE2 /* Project object */ = {
+		E86A66C120C404C000CCEAE2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = RongCloud;
 				TargetAttributes = {
-					E86A663720C3F79500CCEAE2 = {
+					E86A66C820C404C000CCEAE2 = {
 						CreatedOnToolsVersion = 9.4;
 					};
-					E86A664F20C3F79600CCEAE2 = {
+					E86A66E020C404C100CCEAE2 = {
 						CreatedOnToolsVersion = 9.4;
-						TestTargetID = E86A663720C3F79500CCEAE2;
+						TestTargetID = E86A66C820C404C000CCEAE2;
 					};
-					E86A665A20C3F79600CCEAE2 = {
+					E86A66EB20C404C100CCEAE2 = {
 						CreatedOnToolsVersion = 9.4;
-						TestTargetID = E86A663720C3F79500CCEAE2;
+						TestTargetID = E86A66C820C404C000CCEAE2;
 					};
 				};
 			};
-			buildConfigurationList = E86A663320C3F79500CCEAE2 /* Build configuration list for PBXProject "Memento" */;
+			buildConfigurationList = E86A66C420C404C000CCEAE2 /* Build configuration list for PBXProject "Memento" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -266,67 +233,37 @@
 				en,
 				Base,
 			);
-			mainGroup = E86A662F20C3F79500CCEAE2;
-			productRefGroup = E86A663920C3F79500CCEAE2 /* Products */;
+			mainGroup = E86A66C020C404C000CCEAE2;
+			productRefGroup = E86A66CA20C404C000CCEAE2 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = E86A66B520C4029700CCEAE2 /* Products */;
-					ProjectRef = E86A66B420C4029700CCEAE2 /* Composite.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				E86A663720C3F79500CCEAE2 /* Memento */,
-				E86A664F20C3F79600CCEAE2 /* MementoTests */,
-				E86A665A20C3F79600CCEAE2 /* MementoUITests */,
+				E86A66C820C404C000CCEAE2 /* Memento */,
+				E86A66E020C404C100CCEAE2 /* MementoTests */,
+				E86A66EB20C404C100CCEAE2 /* MementoUITests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		E86A66BB20C4029A00CCEAE2 /* Composite.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = Composite.app;
-			remoteRef = E86A66BA20C4029A00CCEAE2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		E86A66BD20C4029A00CCEAE2 /* CompositeTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = CompositeTests.xctest;
-			remoteRef = E86A66BC20C4029A00CCEAE2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		E86A66BF20C4029A00CCEAE2 /* CompositeUITests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = CompositeUITests.xctest;
-			remoteRef = E86A66BE20C4029A00CCEAE2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
-		E86A663620C3F79500CCEAE2 /* Resources */ = {
+		E86A66C720C404C000CCEAE2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E86A664820C3F79600CCEAE2 /* LaunchScreen.storyboard in Resources */,
-				E86A664520C3F79600CCEAE2 /* Assets.xcassets in Resources */,
-				E86A664320C3F79500CCEAE2 /* Main.storyboard in Resources */,
+				E86A66D920C404C100CCEAE2 /* LaunchScreen.storyboard in Resources */,
+				E86A66D620C404C100CCEAE2 /* Assets.xcassets in Resources */,
+				E86A66D420C404C000CCEAE2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E86A664E20C3F79600CCEAE2 /* Resources */ = {
+		E86A66DF20C404C100CCEAE2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E86A665920C3F79600CCEAE2 /* Resources */ = {
+		E86A66EA20C404C100CCEAE2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -336,63 +273,63 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E86A663420C3F79500CCEAE2 /* Sources */ = {
+		E86A66C520C404C000CCEAE2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E86A666F20C3F8BE00CCEAE2 /* SCXGameRool.m in Sources */,
-				E86A664020C3F79500CCEAE2 /* ViewController.m in Sources */,
-				E86A664B20C3F79600CCEAE2 /* main.m in Sources */,
-				E86A667220C3F92D00CCEAE2 /* SCXGame.m in Sources */,
-				E86A667520C3F93A00CCEAE2 /* SCXGameManager.m in Sources */,
-				E86A663D20C3F79500CCEAE2 /* AppDelegate.m in Sources */,
+				E86A670920C404F000CCEAE2 /* SCXGameRool.m in Sources */,
+				E86A66DC20C404C100CCEAE2 /* main.m in Sources */,
+				E86A670620C404F000CCEAE2 /* SCXGame.m in Sources */,
+				E86A670720C404F000CCEAE2 /* ViewController.m in Sources */,
+				E86A66CE20C404C000CCEAE2 /* AppDelegate.m in Sources */,
+				E86A670820C404F000CCEAE2 /* SCXGameManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E86A664C20C3F79600CCEAE2 /* Sources */ = {
+		E86A66DD20C404C100CCEAE2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E86A665520C3F79600CCEAE2 /* MementoTests.m in Sources */,
+				E86A66E620C404C100CCEAE2 /* MementoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E86A665720C3F79600CCEAE2 /* Sources */ = {
+		E86A66E820C404C100CCEAE2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E86A666020C3F79600CCEAE2 /* MementoUITests.m in Sources */,
+				E86A66F120C404C100CCEAE2 /* MementoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E86A665220C3F79600CCEAE2 /* PBXTargetDependency */ = {
+		E86A66E320C404C100CCEAE2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E86A663720C3F79500CCEAE2 /* Memento */;
-			targetProxy = E86A665120C3F79600CCEAE2 /* PBXContainerItemProxy */;
+			target = E86A66C820C404C000CCEAE2 /* Memento */;
+			targetProxy = E86A66E220C404C100CCEAE2 /* PBXContainerItemProxy */;
 		};
-		E86A665D20C3F79600CCEAE2 /* PBXTargetDependency */ = {
+		E86A66EE20C404C100CCEAE2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E86A663720C3F79500CCEAE2 /* Memento */;
-			targetProxy = E86A665C20C3F79600CCEAE2 /* PBXContainerItemProxy */;
+			target = E86A66C820C404C000CCEAE2 /* Memento */;
+			targetProxy = E86A66ED20C404C100CCEAE2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E86A664120C3F79500CCEAE2 /* Main.storyboard */ = {
+		E86A66D220C404C000CCEAE2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E86A664220C3F79500CCEAE2 /* Base */,
+				E86A66D320C404C000CCEAE2 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		E86A664620C3F79600CCEAE2 /* LaunchScreen.storyboard */ = {
+		E86A66D720C404C100CCEAE2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E86A664720C3F79600CCEAE2 /* Base */,
+				E86A66D820C404C100CCEAE2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -400,7 +337,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		E86A666220C3F79600CCEAE2 /* Debug */ = {
+		E86A66F320C404C100CCEAE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -458,7 +395,7 @@
 			};
 			name = Debug;
 		};
-		E86A666320C3F79600CCEAE2 /* Release */ = {
+		E86A66F420C404C100CCEAE2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -510,7 +447,7 @@
 			};
 			name = Release;
 		};
-		E86A666520C3F79600CCEAE2 /* Debug */ = {
+		E86A66F620C404C100CCEAE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -526,7 +463,7 @@
 			};
 			name = Debug;
 		};
-		E86A666620C3F79600CCEAE2 /* Release */ = {
+		E86A66F720C404C100CCEAE2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -542,7 +479,7 @@
 			};
 			name = Release;
 		};
-		E86A666820C3F79600CCEAE2 /* Debug */ = {
+		E86A66F920C404C100CCEAE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -560,7 +497,7 @@
 			};
 			name = Debug;
 		};
-		E86A666920C3F79600CCEAE2 /* Release */ = {
+		E86A66FA20C404C100CCEAE2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -578,7 +515,7 @@
 			};
 			name = Release;
 		};
-		E86A666B20C3F79600CCEAE2 /* Debug */ = {
+		E86A66FC20C404C100CCEAE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -595,7 +532,7 @@
 			};
 			name = Debug;
 		};
-		E86A666C20C3F79600CCEAE2 /* Release */ = {
+		E86A66FD20C404C100CCEAE2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -615,43 +552,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E86A663320C3F79500CCEAE2 /* Build configuration list for PBXProject "Memento" */ = {
+		E86A66C420C404C000CCEAE2 /* Build configuration list for PBXProject "Memento" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E86A666220C3F79600CCEAE2 /* Debug */,
-				E86A666320C3F79600CCEAE2 /* Release */,
+				E86A66F320C404C100CCEAE2 /* Debug */,
+				E86A66F420C404C100CCEAE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E86A666420C3F79600CCEAE2 /* Build configuration list for PBXNativeTarget "Memento" */ = {
+		E86A66F520C404C100CCEAE2 /* Build configuration list for PBXNativeTarget "Memento" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E86A666520C3F79600CCEAE2 /* Debug */,
-				E86A666620C3F79600CCEAE2 /* Release */,
+				E86A66F620C404C100CCEAE2 /* Debug */,
+				E86A66F720C404C100CCEAE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E86A666720C3F79600CCEAE2 /* Build configuration list for PBXNativeTarget "MementoTests" */ = {
+		E86A66F820C404C100CCEAE2 /* Build configuration list for PBXNativeTarget "MementoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E86A666820C3F79600CCEAE2 /* Debug */,
-				E86A666920C3F79600CCEAE2 /* Release */,
+				E86A66F920C404C100CCEAE2 /* Debug */,
+				E86A66FA20C404C100CCEAE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E86A666A20C3F79600CCEAE2 /* Build configuration list for PBXNativeTarget "MementoUITests" */ = {
+		E86A66FB20C404C100CCEAE2 /* Build configuration list for PBXNativeTarget "MementoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E86A666B20C3F79600CCEAE2 /* Debug */,
-				E86A666C20C3F79600CCEAE2 /* Release */,
+				E86A66FC20C404C100CCEAE2 /* Debug */,
+				E86A66FD20C404C100CCEAE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E86A663020C3F79500CCEAE2 /* Project object */;
+	rootObject = E86A66C120C404C000CCEAE2 /* Project object */;
 }
